@@ -1,4 +1,4 @@
-<?php require(APPROOT . '/views/includes/header.php'); ?>
+
 <h2><?= $data['title']; ?></h2>
 
 <h4>Auto van instructeur: Manhoi</h4>
@@ -22,4 +22,3 @@
     <input type="button" value="Mankement Toevoegen">
 </a>
 
-<?php require(APPROOT . '/views/includes/footer.php'); ?>
