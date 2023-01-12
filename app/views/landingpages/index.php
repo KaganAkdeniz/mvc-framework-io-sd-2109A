@@ -4,4 +4,7 @@
     <li>
         <a href="<?= URLROOT; ?>/countries/index">show countries</a>        
     </li>
+    <li>
+        <a href="<?= URLROOT; ?>/lessen/index">Lesrooster weergeven</a>
+    </li>
 </ul>
