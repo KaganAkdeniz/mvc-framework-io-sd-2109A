@@ -54,7 +54,7 @@ class Mankement extends Controller {
             }
             header('Refresh:2 url=' . URLROOT . '/mankement/index');
         } else {
-            header('Refresh:2 url=' . URLROOT . '/mankement/addmankement/' . $data['AutoId']);
+            header('Refresh:8 url=' . URLROOT . '/mankement/addmankement/' . $data['AutoId']);
         }
         }
         $this->view('mankement/addmankement', $data);
