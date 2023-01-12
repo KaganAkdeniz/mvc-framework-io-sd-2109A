@@ -12,7 +12,6 @@
     </thead>
 
     <tbody>
-
         <?= $data['rows'] ?>
     </tbody>
 </table>

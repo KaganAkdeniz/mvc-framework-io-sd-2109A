@@ -52,7 +52,7 @@ class Mankement extends Controller {
             } else {
                 echo "<p>Het nieuwe mankement is niet toegevoegd</p>";
             }
-            header('Refresh:2 url=' . URLROOT . '/mankement/index');
+            header('Refresh:4 url=' . URLROOT . '/mankement/index');
         } else {
             header('Refresh:8 url=' . URLROOT . '/mankement/addmankement/' . $data['AutoId']);
         }
