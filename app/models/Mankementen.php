@@ -1,5 +1,5 @@
 <?php
-class Mankementen
+class Mankementen 
 {
    private $db;
    public function __construct()
@@ -14,6 +14,7 @@ class Mankementen
       $this->db->bind(':Id', 2);
       $result = $this->db->resultSet();
       return $result;
+
    }
    public function addMankement($post)
    {

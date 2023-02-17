@@ -10,3 +10,6 @@
     <li>
         <a href="<?= URLROOT; ?>/mankement/index">Mankement weergeven</a>
 </ul>
+<li>
+        <a href="<?= URLROOT; ?>/instructeur/index">Instrecteuren in dienst</a>
+</ul>

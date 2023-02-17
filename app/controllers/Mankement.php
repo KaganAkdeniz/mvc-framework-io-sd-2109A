@@ -19,7 +19,7 @@ class Mankement extends Controller {
 
         $data=[ 
             'title' => "Overzicht Mankementen",
-            'Email' => "manhoi@gmail.com",
+            'Email' => "",
             'Kenteken'=> "TH-78-KL --- Ferrari",
             'AutoId' => $AutoId,
             'rows' => $rows
